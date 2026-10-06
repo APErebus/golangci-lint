@@ -76,6 +76,16 @@ scoop install main/golangci-lint
 
 The scoop package is not officially maintained by golangci team.
 
+### winget
+
+You can install a binary on Windows using [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+
+```bash
+winget install -e --id GolangCI.golangci-lint
+```
+
+The winget package is not officially maintained by golangci team.
+
 ## Docker
 
 The Docker image is available on [Docker Hub](https://hub.docker.com/r/golangci/golangci-lint).
